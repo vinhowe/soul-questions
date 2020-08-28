@@ -1,0 +1,34 @@
+name: teaching_question_wheel
+description: Spiritual question wheel
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.2.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  chewie: 0.9.10
+  video_player: '>=0.10.12+2 <2.0.0'
+  shared_preferences: ^0.5.10
+  url_launcher: ^5.5.0
+  image_picker: ^0.6.7+7
+  open_file: ^3.0.1
+  after_layout: ^1.0.7+2
+  reorderables: ^0.3.2
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/jesus.jpg
+    - assets/images/jesus-alt.jpg
+    - assets/images/jesus-alt-2.jpg
+    - assets/images/jesus-lamb.jpg
